@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+.ancho-l{
+	top: 150px;
+	position: absolute;
+	width: 100%;
+	
+	text-align: center;
+	z-index: 5;
+}
+.letras{
+	width: 80%;
+	margin: auto;
+
+}
+
+.letras h1{
+	color: #fff;
+	font-family: "cubic";
+	font-size: 40px;
+}
+.letras p{
+	color: #fff;
+	font-family: lato;
+	font-size: 25px;
+	padding-top: 10px;
+}

@@ -1,0 +1,61 @@
+.red{
+	position: fixed;
+	top: 200px;
+	z-index: 100;
+	left: 0;
+
+}
+
+#facebook a{
+	color: #fff;
+	background: #3b5998;
+	text-decoration: none;
+	padding: 5px 25px;
+	width:25px;
+	transition: all .4s ease;
+	}
+#facebook a:hover{
+	background: #3b5998;
+	padding: 5px 35px;
+	
+}
+
+#instagram a{
+	color: #fff;
+	text-decoration: none;
+	padding: 5px 25px;
+	background: #D40AF3;
+	width:25px;
+	transition: all .4s ease;
+	}
+#instagram a:hover{
+	background: #D40AF3;
+	padding: 5px 35px;
+	
+}
+#youtube a{
+	color: #fff;
+	text-decoration: none;
+	padding: 5px 25px;
+	background: #ff0000;
+	width:25px;
+	transition: all .4s ease;
+	}
+#youtube a:hover{
+	background: #ff0000;
+	padding: 5px 35px;
+	
+}
+#github a{
+	color: #fff;
+	text-decoration: none;
+	padding: 5px 25px;
+	background: #554A4A;
+	width:25px;
+	transition: all .4s ease;
+	}
+#github a:hover{
+	background: #554A4A;
+	padding: 5px 35px;
+	
+}

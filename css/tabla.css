@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+.tabla{
+	width: 100%;
+	margin: auto;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 100px;
+}
+.icono-precio{
+	color: #85c34a;
+	padding-top: 20px;
+	font-size: 0.8em;
+	padding-bottom: 10px;
+
+}
+.tablax4{
+	float: left;
+	width: 25%;
+	margin-top: 20px;
+
+}
+.tablax4d{
+	float: left;
+	width: 25%;
+	margin-top: 10px;
+	border-width: 2px;
+	
+}
+.caja-precio{
+	border: 1px solid #85c34a;
+	background: #444;
+	font-size: 1em;
+	padding-bottom: 5px;
+}
+.caja-precio h4{
+	color: #fff;
+}
+.precio-1{
+	font-family: lato;
+	font-size: 50px;
+	color:#85c34a;
+	font-weight: bold;
+}
+.dolar{
+	font-size: 20px;
+	vertical-align: super;
+}
+.barra{
+	font-size: 0.5em;
+	vertical-align: text-bottom;
+	color:#999;
+}
+.mes{
+	font-size: 0.3em;
+	color: #999;
+	vertical-align: text-bottom;
+}
+.lista-precios{
+	list-style: none;
+	padding: 20px 0;
+	color: #81867D;
+	padding-bottom: 50px;
+	font-family: lato;
+}
+.lista-espacios{
+	padding: 0.25em;
+	font-size: 15px;
+
+}
+.boton-contratar{
+	margin-bottom: 15px;
+	padding-bottom: 10px;
+}
+.control-a{
+	background: #85c34a;
+	text-decoration: none;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding: 10px 50px;
+	letter-spacing: 1px;
+	width: 90%;
+	font-family: lato;
+	margin-bottom: 15px;
+}
+.control-a:hover{
+	background: #fff;
+	color: #999;
+	transition: all .4s ease;
+}
+.destacado{
+	background-color: #fff;
+	box-shadow: 0 0 8px rgba(0,0,0,0.9);
+	z-index: 500;
+	border: none;
+}
+.destacado h4{
+	color: #30353c;
+	font-size: 30px;
+}
+.destacado .icono-precio{
+	font-size: 1.2em;
+}
+.destacado .control-a{
+	background: #30353c;
+	color: #fff;
+}
+.destacado .control-a:hover{
+	background: #777;
+	color: #222;
+}
+.estar{
+	float: left;
+	margin: auto;
+	width: 100%;
+	color: #30353c;
+}

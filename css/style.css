@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Oxygen');
+
+*{
+	margin: 0;
+	padding: 0;
+}
+header{
+	width: 100%;
+	background: rgba(0,0,0,0.7);
+	height: 70;
+	border-bottom-color: black;
+	position: fixed;
+	z-index: 10;
+
+}
+.ancho{
+	width: 80%;
+	height: 70px;	
+	margin: auto;
+
+}
+.logo{
+	width: 30%;
+	height: 70px;
+	float: left;
+	box-sizing: border-box;
+	font-weight: bold;
+	font-family: 'Oxygen' !important;
+	
+}
+
+.logo p a{
+	color:#B6B4B4;
+	font-size: 30px;
+	font-style: oblique;
+	text-decoration: none;
+	font-family: "cubic", "sans serif" !important;
+}
+.logo p a:hover{
+	color:#EAE1E1;
+	font-size: 30px;
+	font-style: oblique;
+	text-decoration: none;
+	font-family: "cubic", "sans serif";
+	text-shadow:1px 1px 10px #fff, 1px 1px 10px #ccc;
+	transition: 0.4s;
+
+}
+
+nav{
+	width: 70%;
+	height: 70px;
+	float: left;
+	text-align: right;
+	padding-top: 24px;
+	box-sizing: border-box;
+	
+}
+nav ul li{
+	display: inline;
+	text-align: center;
+}
+nav ul li a{
+	color:#B6B4B4;
+	font-size: 30;
+	text-decoration: none;
+	text-transform: uppercase;
+	
+	font-weight: bold;
+	letter-spacing: 1px;
+	font-family: lato;
+	text-align: center;
+	padding: 10px 10px;
+}
+nav ul li a:hover{
+	color: white;
+	text-shadow: 1px 1px #848282;
+	transition: 0.4s;
+	text-align: center;
+	background: #888; 
+}
+.cuerpo{
+	
+	width: 100%;
+	height: 500px;
+	background: #FC0202;
+}
+.cuerpo2{
+	width: 100%;
+	height: 500px;
+	background:blue;
+}
+
+.cuerpo3{
+	width: 100%;
+	height: 500px;
+	background: yellow;
+}
+
+#particles-js{
+background: url("../img/image.jpg");
+width: 100%;
+background-position: center;
+background-attachment: contain;
+background-size: cover;
+width: 100%;
+
+}
+
+@font-face {
+   font-family: SpecialityofRodrigues;
+   font-style: normal;
+   font-weight: normal;
+   src: url(../fuentes/sor.ttf);
+}
+@font-face {
+   font-family: cubic;
+   font-style: normal;
+   font-weight: normal;
+   src: url(../fuentes/cubic.ttf);
+}
+h1,h2,h3,h4,h4,h6{
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'Oxygen' !important;
+	border-color: #fff 2opx;
+}
+
+h3{
+	line-height: 1.5;
+	font-size: 15px;
+	padding-top: 20px;
+	font-weight: normal;
+	color: #444;
+}
+
+
+
